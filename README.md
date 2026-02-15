@@ -17,7 +17,7 @@ Domain-Driven Design is an approach to software development that focuses on crea
 
 ## 🧱 Tech Stack
 
-- **ASP.NET Core 8**: Web framework
+- **ASP.NET Core 10**: Web framework
 - **MongoDB**: NoSQL database for document storage
 - **xUnit**: Testing framework
 - **Moq**: Mocking library for unit tests
@@ -27,7 +27,7 @@ Domain-Driven Design is an approach to software development that focuses on crea
 ```
 LibraryManagement/
 ├── src/
-│   ├── LibraryManagement.Domain/        # Domain Layer (Entities, Value Objects, Interfaces)
+│   ├── LibraryManagement.Core/          # Domain Layer (Entities, Value Objects, Interfaces)
 │   ├── LibraryManagement.Application/   # Application Layer (Services, DTOs)
 │   ├── LibraryManagement.Infrastructure/# Infrastructure Layer (Repositories, MongoDB)
 │   └── LibraryManagement.API/           # Presentation Layer (Controllers, REST API)
@@ -153,7 +153,7 @@ Business logic that doesn't belong to a specific entity, encapsulated in applica
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/library-management.git
+git clone https://github.com/edumacielp/library-management.git
 cd library-management
 ```
 
@@ -331,7 +331,7 @@ API Controller (Presentation)
     ↓
 Application Service (Application)
     ↓
-Domain Service / Entity (Domain)
+Core Service / Entity (Domain)
     ↓
 Repository Interface (Domain)
     ↓
