@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Itens de Solução/">
+    <File Path=".gitignore" />
+    <File Path="ARCHITECTURE.md" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/LibraryManagement.API/LibraryManagement.API.csproj" Id="cd496e6f-feb1-4b56-8519-37a859b2bd08" />
+    <Project Path="src/LibraryManagement.Application/LibraryManagement.Application.csproj" Id="4ccbcf23-ade1-41ad-a876-62389ae3b6c1" />
+    <Project Path="src/LibraryManagement.Core/LibraryManagement.Core.csproj" Id="720c7904-1781-491a-a699-addc51afae8b" />
+    <Project Path="src/LibraryManagement.Infrastructure/LibraryManagement.Infrastructure.csproj" Id="31bd4d7b-5d19-4bf5-b944-49f7a1f1a5b1" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LibraryManagement.Tests/LibraryManagement.Tests.csproj" Id="0bce1287-93b5-4408-b040-38fac4d328e6" />
+  </Folder>
+</Solution>
